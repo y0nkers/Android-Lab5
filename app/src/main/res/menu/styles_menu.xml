@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_settings"
+        android:title="Стиль">
+        <menu>
+            <item
+                android:id="@+id/styleDark"
+                android:title="Тёмный"/>
+            <item
+                android:id="@+id/styleLight"
+                android:title="Светлый"/>
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/descriptionCheck"
+            android:title="Описание"
+            android:checked="true"/>
+    </group>
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="dark" parent="Theme.AppCompat.DayNight">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="titleTextColor">#FFFFFF</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:windowBackground">#413D3D</item>
+        <item name="android:background">#413D3D</item>
+        <item name="android:spinnerItemStyle">@style/dark.SpinnerItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/dark.SpinnerDropDownItem</item>
+        <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="dark.SpinnerItem">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#413D3D</item>
+    </style>
+    <style name="dark.SpinnerDropDownItem">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#413D3D</item>
+    </style>
+
+</resources>
